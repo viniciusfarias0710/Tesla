@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!-- VERSÃO DO HTML -->
+<html lang="pt-br"> <!-- TAG HTML E LINGUA DO SITE -->
+
+<head> <!-- CONFIGURAÇÕES DO SITE -->
+    <meta charset="UTF-8"> <!-- PADRÃO DE CARACTERES DO SITE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SITE COMPATÍVEL COM CELULAR E COMPUTADOR -->
+    <link rel="stylesheet" href="style.css"> <!-- IMPORTANDO MEU ARQUIVO CSS -->
+    <link rel="shortcut icon" type="imagex/png" href="./img/icon-tesla.png">
+    <title>Projeto - Tesla</title> <!-- TITULO DO SITE -->
+</head>
+
+<body>
+    <header>
+        <a href="">Vehicles</a>
+        <a href="">Energy</a>
+        <a href="">charging</a>
+        <a href="">Discover</a>
+        <a href="">Shop</a>
+        <a href="">We, Robot</a>
+    </header>
+    
+    <img src="./img/logo-tesla.png" alt="logo da tesla" class="logo">
+
+    <ul class="lista">
+        <!-- ITEM 1 -->
+        <li class="item">
+            <video src="./img/model-y.mp4" muted loop autoplay></video>
+
+            <div class="info-carro">
+                <h1>Model Y</h1> <!-- TITULO -->
+                <p class="sub-titulo">Parcelar a partir de 499 dólares</p>
+            </div>
+
+            <div class="rodape">
+                <div class="rodape-content">
+                    <div class="rodape-info">
+                        <h2>76
+                            pés cúbicos</h2>
+                        <p>Espaço de carga</p>
+                    </div>
+
+                    <div class="rodape-info">
+                        <h2>337
+                            mi</h2>
+                        <p>Alcance (estimativa EPA)</p>
+                    </div>
+
+                    <div class="rodape-info">
+                        <h2>Tração Integral</h2>
+                        <p>Motor Duplo</p>
+                    </div>
+                </div>
+                <button onclick="aparecerFormulario()">Comprar Agora</button>
+                <button class="test-drive">Faça um Test-Drive</button>
+                <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
+            </div>
+        </li>
+
+        <!-- ITEM 2 -->
+        <li class="item">
+            <img src="./img/model-s.jpeg" class="img-tesla" alt="imagem model 3">
+
+            <div class="info-carro">
+                <h1>Model 3</h1> <!-- TITULO -->
+                <p class="sub-titulo">Compre agora o seu Tesla</p>
+            </div>
+
+            <div class="rodape">
+                <div class="rodape-content">
+                    <div class="rodape-info">
+                        <h2>15 min</h2>
+                        <p>Recarregue até 195 milhas²</p>
+                    </div>
+
+                    <div class="rodape-info">
+                        <h2>363 mi</h2>
+                        <p>Alcance (estimativa EPA)</p>
+                    </div>
+
+                    <div class="rodape-info">
+                        <h2>Tração Integral</h2>
+                        <p>Motor Duplo</p>
+                    </div>
+                </div>
+                <button>Comprar Agora</button>
+                <button class="test-drive">Faça um Test-Drive</button>
+                <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
+            </div>
+        </li>
+
+        <!-- ITEM 3 -->
+        <li class="item">
+            <img src="./img/model-x.jpeg" class="img-tesla" alt="imagem model x">
+
+            <div class="info-carro">
+                <h1>Model X</h1> <!-- TITULO -->
+                <p class="sub-titulo">Parcelar a partir de 499 dólares</p>
+            </div>
+
+            <div class="rodape">
+                <div class="rodape-content">
+                    <div class="rodape-info">
+                        <h2>314
+                            mi</h2>
+                        <p>Alcance (estimativa EPA)</p>
+                    </div>
+
+                    <div class="rodape-info">
+                        <h2>2,5
+                            e</h2>
+                        <p>0-60 mph²</p>
+                    </div>
+
+                    <div class="rodape-info">
+                        <h2>9.9
+                            e</h2>
+                        <p>1/4 milha</p>
+                    </div>
+
+                    <div class="rodape-info">
+                        <h2>1.020
+                            cavalos de potência</h2>
+                        <p>Potência de pico</p>
+                    </div>
+                </div>
+                <button>Comprar Agora</button>
+                <button class="test-drive">Faça um Test-Drive</button>
+                <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
+            </div>
+        </li>
+    </ul>
+
+    <div class="formulario">
+        <button onclick="desaparecerFormulario()">Fechar</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241965597684073"></script>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
